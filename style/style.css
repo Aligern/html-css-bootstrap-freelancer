@@ -1,36 +1,36 @@
+a {
+    text-decoration: none;
+}
+
+
 .ls-debug {
     border: 1px solid red;
+}
+.ls-border {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+}
+.ls-border i {
+    line-height: 35px;
+}
+.ls-button-send {
+    background-color: #1ABC9C;
+    color: white;
+}
+.ls-text-color {
+    color: #1ABC9C;
 }
 
 /* general */
 body {
-   color: white;
+    color: white;
 }
 footer {
     background-color: #3A546D;
 }
 .odd {
     background-color: #1ABC9C;  
-}
-/* header */
-header, div.footer-bottom {
-background-color: #2C3E50
-}
-nav a.navbar-brand, nav a.navbar-brand:hover {
-    color: white;
-}
-#portfolio-nav a.nav-link {
-    color: white;
-}
-#portfolio-nav a.nav-link:hover {
-    color: #1ABC9C;
-}
-/* portfolio */
-#portfolio, #contact {
-    color: black;
-}
-.portfolio-avatar {
-    max-width: 250px;
 }
 .star {
     color: white;
@@ -48,9 +48,60 @@ nav a.navbar-brand, nav a.navbar-brand:hover {
     height: 4px;
     border: 2px solid #2C3E50;
 }
-
-.card:hover:after {
-/* 
-hover on card here 
-*/
+/* header */
+header, div.footer-bottom {
+    background-color: #2C3E50
 }
+nav a.navbar-brand, nav a.navbar-brand:hover {
+    color: white;
+}
+#portfolio-nav a.nav-link {
+    color: white;
+}
+#portfolio-nav a.nav-link:hover {
+    color: #1ABC9C;
+}
+/* portfolio */
+#portfolio, #contact {
+    color: black;
+}
+.portfolio-avatar {
+    max-width: 250px;
+}
+.ls-card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1abc9c71;
+    opacity: 0;
+    transition: opacity 0,3s ease;
+}
+.card:hover .ls-card-img{
+    opacity: 1;
+    cursor: pointer;
+}
+.ls-card-img i{
+    font-size: 4em;
+    color: white;
+}
+
+/* contact */
+/* ricostruisco il bordo del form */
+.ls-no-border {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
+/* .card:after {
+    content: '<i class="fa-regular fa-square-plus"></i>';
+    opacity: 0;
+    background-color: #1ABC9C;
+    color: #1ABC9C;
+} */
+
+

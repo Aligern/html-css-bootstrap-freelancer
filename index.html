@@ -14,22 +14,13 @@
   </head>
 
   <body>
-    <header class="ls-debug text-uppercase">
-      <!-- nav fixed here -->
-
+    <header class="fixed-top text-uppercase">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
             Start Bootstrap
         </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#portfolio-nav"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="portfolio-nav">
@@ -54,11 +45,11 @@
         </div>
       </nav>
     </header>
-    <!-- ///////////////////////////////////////////////////////// -->
-    <main>
+
+    <main class="mt-5">
       <!--  hero -->
-      <section id="Hero" class="odd">
-        <div class="container ls-debug">
+      <section id="Hero" class="odd py-4 ">
+        <div class="container">
             <div class="portfolio-avatar mx-auto">
                 <img class="img-fluid" src="./img/avatar.svg" alt="avatar">
             </div>
@@ -79,45 +70,65 @@
     </section>
 
     <!-- portfolio -->
-      <section id="portfolio">
+      <section id="portfolio" class="py-4">
         <div class="container">
-          <h2 class="text-uppercase text-center ls-debug">
+          <h2 class="text-uppercase text-center">
             portfolio
         </h2>
         <div class="d-flex align-items-center  justify-content-center">
             <div class="star-line-2"></div>
-            <div> <i class="star-2 ms-3 me-3 fa-solid fa-star"></i> </div>
+            <div> 
+                <i class="star-2 ms-3 me-3 fa-solid fa-star"></i> 
+            </div>
             <div class="star-line-2"></div>
         </div>
-          <div class="row gy-4 ls-debug">
-            <div class="col-12 col-md-6 col-xl-4 ls-debug">
+          <div class="row gy-4 ">
+            <div class="col-12 col-md-6 col-xl-4 ">
               <div class="card overflow-hidden">
-                <img class="img-fluid" src="./img/cabin.png" alt="cabin"/>
+                <img class="img-fluid" src="./img/cabin.png" alt="cabin">
+                <div class="ls-card-img">
+                    <i class="fa-regular fa-square-plus"></i>
+                </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 ls-debug">
+            <div class="col-12 col-md-6 col-xl-4 ">
                 <div class="card overflow-hidden">
-                    <img class="img-fluid" src="./img/cake.png" alt="cake"/>
+                    <img class="img-fluid" src="./img/cake.png" alt="cake">
+                    <div class="ls-card-img">
+                        <i class="fa-regular fa-square-plus"></i>
+                    </div>
                   </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 ls-debug">
+            <div class="col-12 col-md-6 col-xl-4 ">
                 <div class="card overflow-hidden">
-                    <img class="img-fluid" src="./img/circus.png" alt="circus"/>
+                    <img class="img-fluid" src="./img/circus.png" alt="circus">
+                    <div class="ls-card-img">
+                        <i class="fa-regular fa-square-plus"></i>
+                    </div>
                   </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 ls-debug">
+            <div class="col-12 col-md-6 col-xl-4 ">
                 <div class="card overflow-hidden">
-                    <img class="img-fluid" src="./img/game.png" alt="game"/>
+                    <img class="img-fluid" src="./img/game.png" alt="game">
+                    <div class="ls-card-img">
+                        <i class="fa-regular fa-square-plus"></i>
+                    </div>
                   </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 ls-debug">
+            <div class="col-12 col-md-6 col-xl-4 ">
                 <div class="card overflow-hidden">
-                    <img class="img-fluid" src="./img/safe.png" alt="safe"/>
+                    <img class="img-fluid" src="./img/safe.png" alt="safe">
+                    <div class="ls-card-img">
+                        <i class="fa-regular fa-square-plus"></i>
+                    </div>
                   </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 ls-debug">
+            <div class="col-12 col-md-6 col-xl-4 ">
                 <div class="card overflow-hidden">
-                    <img class="img-fluid" src="./img/submarine.png" alt="submarine"/>
+                    <img class="img-fluid" src="./img/submarine.png" alt="submarine">
+                    <div class="ls-card-img">
+                        <i class="fa-regular fa-square-plus"></i>
+                    </div>
                   </div>
             </div>
           </div>
@@ -125,9 +136,9 @@
       </section>
 
       <!-- about -->
-      <section id="about" class="odd">
-        <div class="container ls-debug">
-            <h2 class="text-uppercase text-center ls-debug">
+      <section id="about" class="odd py-4 px-sm-5">
+        <div class="container">
+            <h2 class="text-uppercase text-center">
                 About
             </h2>
             <div class="d-flex align-items-center  justify-content-center">
@@ -135,44 +146,96 @@
                 <div> <i class="star ms-3 me-3  fa-solid fa-star"></i> </div>
                 <div class="star-line"></div>
             </div>
-            <div class="d-flex ">
-                <div>
+            <div class="row">
+                <div class="col-12 col-md-6">
                     <p>
                         Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
                     </p>
                 </div>
-                <div>
+                <div class="col-12 col-md-6">
                     <p>
                         Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                     </p>
                 </div>
             </div>
-            <div class="d-flex  justify-content-center ">
-                <button type="button" class="btn btn-outline-light"> <i class="fa-solid fa-download"></i> Download</button>
+            <div class="d-flex  justify-content-center">
+                <button type="button" class="btn btn-outline-light"> <i class="fa-solid fa-download"></i>&nbsp;Download</button>
             </div>
         </div>
       </section>
 
       <!-- contact section -->
-      <section id="contact">
-        <div class="container ls-debug">
+      <section id="contact" class="py-4 px-sm-5">
+        <div class="container">
             <h2 class="text-uppercase text-center">Contact Me</h2>
             <div class="d-flex align-items-center  justify-content-center">
                 <div class="star-line-2"></div>
                 <div> <i class="star-2 ms-3 me-3 fa-solid fa-star"></i> </div>
                 <div class="star-line-2"></div>
             </div>
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">
+                </label>
+                  <input type="text" class="form-control ls-no-border" placeholder="Name">
+                  <label for="exampleFormControlInput1">
+                </label>
+                  <input type="email" class="form-control ls-no-border" placeholder="Email Address">
+                  <label for="exampleFormControlInput1">
+                  </label>
+                  <input type="tel" class="form-control ls-no-border" id="exampleFormControlInput1" placeholder="Phone number">
+                </div>
+                <div class="form-group">
+                  <label for="Message">Message</label>
+                  <textarea class="form-control ls-no-border"  rows="5"></textarea>
+                </div>
+            </form>
+            <div>
+                <button type="button" class="btn ls-button-send my-3">
+                    Send
+                </button>
+            </div>
+        </div>
         </div>
       </section>
     </main>
 
     <!-- we split footer in 2 containers -->
     <footer>
-      <div class="container footer-top ls-debug">
-        footer top
+      <div class="container py-5 px-sm-5">
+        <div class="row">
+            <div class="text-center col-12 col-md-4">
+                <h3>Location</h3>
+                <span>2215 John Daniel Drive clark, MO</span>
+                <div>
+                    <span>54243</span>
+                </div>
+            </div>
+            <div class="text-center col-12 col-md-4">
+                <h3>Around The WEB</h3>
+                <div class="d-flex justify-content-center gap-3">
+                    <div class="rounded-circle ls-border">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="rounded-circle ls-border">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="rounded-circle ls-border">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="rounded-circle ls-border">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center col-12 col-md-4">
+                <h3>About Freelancer</h3>
+                <span>Freelance is a free to use, open source Bootstrap theme created by <a class="ls-text-color" href="#">Start Bootstrap</a></span>
+            </div>
+        </div>
     </div>
-      <div class="footer-bottom ls-debug">
-        footer bottom
+      <div class="footer-bottom text-center py-5 ">
+        <span>Copyright &copy; Your Website 2019</span>
     </div>
     </footer>
 
