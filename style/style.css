@@ -2,25 +2,55 @@
     border: 1px solid red;
 }
 
+/* general */
 body {
-    color: white;
+   color: white;
 }
-
-/* colors */
-
+footer {
+    background-color: #3A546D;
+}
 .odd {
     background-color: #1ABC9C;  
 }
-
-.card:hover:after {
-    /* 
-    hover on card here 
-    */
+/* header */
+header, div.footer-bottom {
+background-color: #2C3E50
 }
-
-nav a.navbar-brand {
+nav a.navbar-brand, nav a.navbar-brand:hover {
     color: white;
 }
 #portfolio-nav a.nav-link {
-color: white;
+    color: white;
+}
+#portfolio-nav a.nav-link:hover {
+    color: #1ABC9C;
+}
+/* portfolio */
+#portfolio, #contact {
+    color: black;
+}
+.portfolio-avatar {
+    max-width: 250px;
+}
+.star {
+    color: white;
+}
+.star-2 {
+    color: #2C3E50;
+}
+.star-line {
+    width: 70px;
+    height: 4px;
+    border: 2px solid white;
+}
+.star-line-2 {
+    width: 70px;
+    height: 4px;
+    border: 2px solid #2C3E50;
+}
+
+.card:hover:after {
+/* 
+hover on card here 
+*/
 }
