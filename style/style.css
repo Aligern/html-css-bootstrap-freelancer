@@ -1,0 +1,26 @@
+.ls-debug {
+    border: 1px solid red;
+}
+
+body {
+    color: white;
+}
+
+/* colors */
+
+.odd {
+    background-color: #1ABC9C;  
+}
+
+.card:hover:after {
+    /* 
+    hover on card here 
+    */
+}
+
+nav a.navbar-brand {
+    color: white;
+}
+#portfolio-nav a.nav-link {
+color: white;
+}
