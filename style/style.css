@@ -1,8 +1,8 @@
+/* reset */
 a {
     text-decoration: none;
 }
-
-
+/* my style */
 .ls-debug {
     border: 1px solid red;
 }
@@ -18,10 +18,12 @@ a {
     background-color: #1ABC9C;
     color: white;
 }
+.ls-button-send:hover {
+    border: 1px solid black;
+}
 .ls-text-color {
     color: #1ABC9C;
 }
-
 /* general */
 body {
     color: white;
@@ -89,19 +91,11 @@ nav a.navbar-brand, nav a.navbar-brand:hover {
     font-size: 4em;
     color: white;
 }
-
 /* contact */
-/* ricostruisco il bordo del form */
+/* rebuilding form borders*/
 .ls-no-border {
     border: none;
     border-radius: 0;
     border-bottom: 1px solid black;
 }
-/* .card:after {
-    content: '<i class="fa-regular fa-square-plus"></i>';
-    opacity: 0;
-    background-color: #1ABC9C;
-    color: #1ABC9C;
-} */
-
 
